@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.ajax"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+	<!-- versionCode is optional and Android only -->
+
+	<name>Ajax</name>
+
+	<description>Test Phonegaph App Using build.phonegap.com - Ajax</description>
+
+	<author href="http://173.201.0.130" email="javier_lamarca@hotmail.com">Javier Lamarca</author>
+  
+	<platform name="ios"><icon src="icon.png" width="180" height="180" /></platform>
+	<platform name="android"><icon src="icon.png" width="180" height="180" /></platform>
+	<platform name="winphone"><icon src="icon.png" width="180" height="180" /></platform>
+	
+	<plugin name="cordova-plugin-whitelist" spec="1.2.1" source="npm" />
+	<access origin="*" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	
+</widget>
