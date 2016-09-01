@@ -1,4 +1,5 @@
 function darclick(){
+	alert("aaaaaaaa");
 	$(".opciones").click(descripcion);
 }
 
