@@ -27,9 +27,8 @@ body{background-color:#FFEC53}
 }
 
 .contenedores{
-	background-color:#333333;
-	height:12ex;
-	width:100%;
-	text-align:center;
-	margin-top:2ex;
+	line-height: 6ex;
+	color:white;
+	font-size:4ex;
+	font-weight: bold;
 }
