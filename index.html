@@ -8,32 +8,11 @@
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/jquery.form.js"></script>
+	<script src="js/principal.js"></script>
     <script>
         document.addEventListener("deviceready", onDeviceReady, false);
 		//$( document ).ready(function() {onDeviceReady();});
-
-        function onDeviceReady() {
-
-			$.ajax({
-				type: "POST",
-				url: "http://www.ilazkitaldea.com/app/php/cargar_proxima_actividad.php",
-				crossDomain: true,
-				cache: false,
-				data: { 
-					name: "John", 
-					location: "Boston" 
-				},
-				success: function(result){
-					var result = $.parseJSON(result);
-					$.each(result, function(i,field){
-						$("#results").append(field);
-					});
-				}
-			})
-			.fail(function(jqXHR, textStatus) {
-				$("#results").html( "Request failed: " + textStatus );
-			});
-  
+		onDeviceReady();
 		}
     </script>
     <style>.w100{width:100%;padding:10px 0px 10px 0px;}</style>

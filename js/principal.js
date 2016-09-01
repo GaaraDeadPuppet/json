@@ -18,3 +18,11 @@ function onDeviceReady() {
 	.fail(function(jqXHR, textStatus) {
 		$("#results").html( "Request failed: " + textStatus );
 });
+
+function darclick(){
+	$("#opciones").click(descripcion);
+}
+
+function descripcion(){
+	alert("aaaaaaaa");
+}
