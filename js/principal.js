@@ -1,5 +1,5 @@
 function darclick(){
-	$("#opciones").click(descripcion);
+	$(".opciones").click(descripcion);
 }
 
 function descripcion(){
