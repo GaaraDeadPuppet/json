@@ -12,7 +12,23 @@
     <script>
         document.addEventListener("deviceready", onDeviceReady, false);
 		//$( document ).ready(function() {onDeviceReady();});
-		onDeviceReady();
+		function onDeviceReady() {
+			$.ajax({
+				type: "POST",
+				url: "http://www.ilazkitaldea.com/app/php/cargar_proxima_actividad.php",
+				crossDomain: true,
+				cache: false,
+				success: function(result){
+					var result = $.parseJSON(result);
+					$.each(result, function(i,field){
+						$("#results").append(field);
+						darclick():
+					});
+				}
+			})
+			.fail(function(jqXHR, textStatus) {
+				$("#results").html( "Request failed: " + textStatus );
+			});
 		}
     </script>
     <style>.w100{width:100%;padding:10px 0px 10px 0px;}</style>
