@@ -1,7 +1,7 @@
 body{background-color:#FFEC53}
 
 #cabecera{
-	background-color:#333333;
+	background-color:#161717;
 	height:12ex;
 	width:100%;
 	text-align:center;
@@ -12,4 +12,11 @@ body{background-color:#FFEC53}
 	color:white;
 	font-size:4ex;
 	font-weight: bold;
+}
+
+.opciones{
+	background-color:#333333;
+	height:12ex;
+	width:100%;
+	text-align:center;
 }
