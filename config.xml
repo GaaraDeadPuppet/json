@@ -13,9 +13,9 @@
 
 	<author href="http://ilazkitaldea.com" email="info@ilazkitaldea.com">gdpafk</author>
   
-	<platform name="ios"><icon src="icon.png" width="180" height="180" /></platform>
-	<platform name="android"><icon src="icon.png" width="180" height="180" /></platform>
-	<platform name="winphone"><icon src="icon.png" width="180" height="180" /></platform>
+	<platform name="ios"><icon src="icon.png" width="220" height="220" /></platform>
+	<platform name="android"><icon src="icon.png" width="220" height="220" /></platform>
+	<platform name="winphone"><icon src="icon.png" width="220" height="220" /></platform>
 	
 	<plugin name="cordova-plugin-whitelist" spec="1.2.1" source="npm" />
 	<access origin="*" />
