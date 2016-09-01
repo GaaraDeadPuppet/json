@@ -7,15 +7,15 @@
 
 	<!-- versionCode is optional and Android only -->
 
-	<name>Ajax</name>
+	<name>ILAZKI</name>
 
-	<description>Test Phonegaph App Using build.phonegap.com - Ajax</description>
+	<description>app de ilazki</description>
 
-	<author href="http://173.201.0.130" email="javier_lamarca@hotmail.com">Javier Lamarca</author>
+	<author href="http://ilazkitaldea.com" email="info@ilazkitaldea.com">gdpafk</author>
   
-	<platform name="ios"><icon src="icon.png" width="180" height="180" /></platform>
-	<platform name="android"><icon src="icon.png" width="180" height="180" /></platform>
-	<platform name="winphone"><icon src="icon.png" width="180" height="180" /></platform>
+	<platform name="ios"><icon src="icon.gif" width="180" height="180" /></platform>
+	<platform name="android"><icon src="icon.gif" width="180" height="180" /></platform>
+	<platform name="winphone"><icon src="icon.gif" width="180" height="180" /></platform>
 	
 	<plugin name="cordova-plugin-whitelist" spec="1.2.1" source="npm" />
 	<access origin="*" />
