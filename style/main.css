@@ -32,3 +32,10 @@ body{background-color:#FFEC53}
 	font-size:4ex;
 	font-weight: bold;
 }
+
+.contenedores_seguidos{
+	line-height: 1.5ex;
+	color:white;
+	font-size:4ex;
+	font-weight: bold;
+}
