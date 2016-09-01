@@ -19,4 +19,9 @@ body{background-color:#FFEC53}
 	height:12ex;
 	width:100%;
 	text-align:center;
+	margin-top:4ex;
+}
+
+.opciones:hover{
+	background-color:#FECA38;
 }
