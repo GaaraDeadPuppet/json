@@ -11,6 +11,7 @@ function descripcion(){
 		success: function(result){
 			var result = $.parseJSON(result);
 			$.each(result, function(i,field){
+				$("#results").empty();
 				$("#results").append(field);
 			});
 		}
