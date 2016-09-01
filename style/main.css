@@ -27,7 +27,7 @@ body{background-color:#FFEC53}
 }
 
 .contenedores{
-	line-height: 4ex;
+	line-height:4ex;
 	color:white;
 	font-size:4ex;
 	font-weight: bold;
@@ -35,6 +35,6 @@ body{background-color:#FFEC53}
 
 .contenedores_seguidos{
 	color:white;
-	font-size:4ex;
+	font-size:2ex;
 	font-weight: bold;
 }
